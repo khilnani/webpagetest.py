@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 readme = open('README.md', 'r').read()
 setup(
     name='webpagetest',
-    version='0.1',
+    version='0.2',
     url='https://github.com/khilnani/webpagetest.py',
     license='MIT',
     author='khilnani',
@@ -16,6 +16,11 @@ setup(
     long_description=readme,
     packages=find_packages(),
     install_requires=['requests','texttable'],
+    entry_points={
+        'console_scripts': [
+            'wpt = webpagetest',
+            ]
+    },
     keywords=('webpagetest', 'wpt'),
     classifiers=[
           'Development Status :: 3 - Alpha',
