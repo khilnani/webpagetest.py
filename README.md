@@ -2,7 +2,9 @@
 
 ## Installation
 
+- Python pypi - https://pypi.python.org/pypi/webpagetest
 - Run  `pip install webpagetest`
+
 
 ## Development
 
