@@ -1,0 +1,24 @@
+{
+    "options": [
+        {
+            "k": "SEE http://www.webpagetest.org/getkey.php",
+            "location": "Dulles:Chrome.3GFast",
+            "f": "json",
+            "private": 1,
+            "mobile": 0,
+            "mobileDevice": "",
+            "timeline": 1,
+            "pingback": "",
+            "tests": [
+                {
+                    "label" : "cnn",
+                    "url" : "http://www.cnn.com"
+                },
+                {
+                    "label" : "bbc",
+                    "url" : "http://www.bbc.com"
+                }
+            ]
+        }
+    ]
+}
