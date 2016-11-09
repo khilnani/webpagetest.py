@@ -5,7 +5,7 @@ install:
 				pip install -e .
 
 run:
-				wpt config.json
+				wpt --config config.json
 
 clean:
 				find . -name "*.pyc" -exec rm -rf {} \;
