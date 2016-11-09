@@ -1,6 +1,11 @@
 init:
-				pip install -r requirements.txt
+				pip install -r requirements.txt --upgrade
+
+install:
 				pip install -e .
+
+run:
+				wpt config.json
 
 clean:
 				find . -name "*.pyc" -exec rm -rf {} \;

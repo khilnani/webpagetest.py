@@ -18,7 +18,7 @@ setup(
     install_requires=['requests','texttable'],
     entry_points={
         'console_scripts': [
-            'wpt = webpagetest',
+            'wpt = webpagetest.main:main',
             ]
     },
     keywords=('webpagetest', 'wpt'),
