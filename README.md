@@ -4,7 +4,7 @@
 
 ## Overview
 
-Command line utility to schedule tests at WebPageTest.org
+Command line utility to schedule tests with WebPageTest.org & get a test comparison url.
 
 See https://sites.google.com/a/webpagetest.org/docs/advanced-features/webpagetest-restful-apis for additional information
 
